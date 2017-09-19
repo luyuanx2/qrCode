@@ -93,7 +93,7 @@ public class QrCodeUtil {
      * 生成二维码(QRCode)图片
      * @param content 二维码图片的内容
      * @param imgPath 生成二维码图片完整的路径
-     * @param ccbpath  二维码图片中间的logo路径
+     * @param ccbPath  二维码图片中间的logo路径
      */
     public static int createQRCode(String content, String imgPath,String ccbPath,int version) {
         try {
