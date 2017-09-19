@@ -86,7 +86,7 @@ public class QrCodeUtil {
         //Toolkit.getDefaultToolkit().getImage();
         grap.drawImage(new ImageIcon("C:\\Users\\jame\\Pictures\\18.png").getImage(), 92, 92,50,50, null);
         grap.dispose();
-        ImageIO.write(image, "JPEG", new File("D:\\任壮壮.jpg"));
+        ImageIO.write(image, "JPEG", new File("D:\\二维码.jpg"));
     }
 
     /**
